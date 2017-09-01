@@ -47,7 +47,8 @@ def hasNoX(word):
 
 
 def isNumber(item):
-   return type(item)==int or type(item)==float
+   " return True if item is of type int or type float otherwise False "
+   return "stub" # HINT You already did this on in a previous lab
 
 def isListOfNumber(theList):
    """
