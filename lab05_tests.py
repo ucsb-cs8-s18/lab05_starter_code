@@ -1,9 +1,10 @@
-# tests for lab06, UCSB, CMPSC 8, Summer 2017
+#!/usr/bin/env python3
+# tests for lab05, UCSB, CMPSC 8, Spring 2018
 # Instructor: P. Conrad
 
 
 
-from lab06 import notStringContainingE
+from lab05 import notStringContainingE
 
 def test_notStringContainingE_1():
    assert notStringContainingE('Fred')==False
@@ -31,7 +32,7 @@ def test_notStringContainingE_8():
    
 ###########################
    
-from lab06 import hasNoX
+from lab05 import hasNoX
 
 def test_hasNoX_1():
    assert hasNoX('Fred')==True
@@ -56,7 +57,7 @@ def test_hasNoX_7():
 
 ###################
 
-from lab06 import isNumber
+from lab05 import isNumber
 
 def test_isNumber_1():
    assert not isNumber("UCSB")
@@ -75,7 +76,7 @@ def test_isNumber_5():
 
 ##########################################
    
-from lab06 import isListOfNumber
+from lab05 import isListOfNumber
 
 def test_isListOfNumber_1():
    assert isListOfNumber('Fred')==False
@@ -103,7 +104,7 @@ def test_isListOfNumber_8():
 
 #######################
 
-from lab06 import isListOfIntegers
+from lab05 import isListOfIntegers
 
 def test_isListOfIntegers_1():
    assert isListOfIntegers('Fred')==False
@@ -143,7 +144,7 @@ def test_isListOfIntegers_9():
 
 #############
 
-from lab06 import isListOfEvenIntegers
+from lab05 import isListOfEvenIntegers
 
 def test_isListOfEvenIntegers_1():
    assert isListOfEvenIntegers('Fred')==False
@@ -190,7 +191,7 @@ def test_isListOfEvenIntegers_11():
 
 ###########
 
-from lab06 import totalLength
+from lab05 import totalLength
 
 def test_totalLength_1():
    assert totalLength('1')==False
@@ -209,7 +210,7 @@ def test_totalLength_5():
 
 ###########
 
-from lab06 import lengthOfEach
+from lab05 import lengthOfEach
 
 def test_lengthOfEach_1():
    assert lengthOfEach('1')==False
@@ -228,7 +229,7 @@ def test_lengthOfEach_5():
 
 ################
 
-from lab06 import countEvens
+from lab05 import countEvens
 
 def test_countEvens_1():
    assert countEvens('1')==False
@@ -253,7 +254,7 @@ def test_countEvens_7():
     
 #############
 
-from lab06 import onlyEvens
+from lab05 import onlyEvens
 
 def test_onlyEvens_1():
    assert onlyEvens('1')==False
@@ -282,4 +283,4 @@ def test_onlyEvens_8():
 
 if __name__ == '__main__':
    import pytest
-   pytest.main(["./lab06_tests.py"])
+   pytest.main(["./lab05_tests.py"])

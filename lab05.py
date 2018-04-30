@@ -1,4 +1,4 @@
-# tests for lab06, UCSB, CMPSC 8, Summer 2017
+# tests for lab05, UCSB, CMPSC 8, Spring 2018
 # Instructor: P. Conrad
 # Student(s): (insert name here)
 
