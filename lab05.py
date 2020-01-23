@@ -127,7 +127,7 @@ def isListOfEvenIntegers(theList):
 
 ### @@@ NOW, write a function called totalLength(x)
 ### @@@   Use the accumulator pattern to compute the total length
-### @@@   of all the words in a string
+### @@@   of all strings in a list of strings.
 ### @@@   The accumulator will be an integer that starts at zero.
 ### @@@   You'll use a for loop to look at each item in the list
 
